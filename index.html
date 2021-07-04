@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/jquery-3.5.1.js"></script>
+    <script defer src="/main.js"></script>
+</head>
+
+<body>
+
+    <br>
+    <h1>Welcome To Countries List !</h1>
+    <br>
+    <form class="form-inline my-2 my-lg-0">
+        &nbsp;
+        <button id="searchAll" type="button" class="btn btn-primary">Display All Countries</button>&nbsp;&nbsp;
+        <input class="form-control mr-sm-2" type="text" placeholder="Input Country Name" aria-label="Search"
+            id="searchBox">
+        <button id="searchButton" class="btn btn-primary" type="button">Search</button>
+    </form>
+
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th scope="row">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Top level domain</th>
+                <th scope="col">Capital</th>
+                <th scope="col">Currencies</th>
+                <th scope="col">Flag</th>
+                <th scope="col">Borders</th>
+                
+            </tr>
+        </thead>
+        <tbody id="countryTable">
+
+        </tbody>
+    </table>
+
+</body>
+
+</html>
